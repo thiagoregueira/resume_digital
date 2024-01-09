@@ -216,6 +216,9 @@ with st.expander("📚Lista Completa - Clique aqui!"):
         "FEA-dev USP Python do Básico ao Intermediário": os.path.join(
             diretorio_certificados, "FEA-dev USP Python do Básico ao Intermediário.pdf"
         ),
+        "JAVA WEB COM SPRING BOOT, Treina Recife": os.path.join(
+            diretorio_certificados, "JAVA_WEB_COM_SPRING_BOOT.pdf"
+        ),
     }
 
     for nome_certificado, caminho_certificado in certificacoes.items():
