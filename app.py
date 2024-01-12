@@ -91,6 +91,7 @@ Como atual estudante de Engenharia de Dados, almejo uma sólida formação acad�
 st.write(
     """<p class="tab" style="text-align: justify;">
     Hoje busco aliar toda minha experiência adquirida ao longo do tempo com minhas habilidades técnicas, destinadas principalmente para lidar com grandes volumes de dados e desenvolvimento Web.</p>""",
+    unsafe_allow_html=True,
 )
 
 
