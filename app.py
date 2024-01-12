@@ -84,9 +84,9 @@ st.write("<h2>🌎Experiências e Qualificações</h2>", unsafe_allow_html=True)
 st.write("---")
 st.write(
     """<p class="tab" style="text-align: justify;">
-Como atual estudante de Engenharia de Dados, almejo uma sólida formação acadêmica em Engenharia de Dados/PUC-Minas, aliada a uma paixão incansável por tecnologia e pelo mundo dos dados. Minha trajetória profissional, notadamente como Gerente em um grande Banco nacional, forneceu uma base robusta em liderança e tomada de decisões estratégicas. Essa experiência, somada aos cinco anos como Escriturário, onde desenvolvi habilidades exemplares de comunicação e resolução de problemas, consolidou minha capacidade de oferecer soluções personalizadas para diversas situações de negócio.</p>
+Como atual estudante de Engenharia de Dados, almejo uma sólida formação acadêmica em Engenharia de Dados/PUC-Minas, aliada a uma paixão incansável por tecnologia e pelo mundo dos dados. Minha trajetória profissional, notadamente como Gerente em um grande Banco nacional, forneceu uma base robusta em liderança e tomada de decisões estratégicas. Essa experiência, somada aos cinco anos como Escriturário, onde desenvolvi habilidades exemplares de comunicação e resolução de problemas, consolidou minha capacidade de oferecer soluções personalizadas para diversas situações de negócio.
 
-<p class="tab" style="text-align: justify;">Hoje busco aliar toda minha experiência adquirida ao longo do tempo com minhas habilidades técnicas, destinadas principalmente para lidar com grandes volumes de dados e desenvolvimento Web.</p>
+Hoje busco aliar toda minha experiência adquirida ao longo do tempo com minhas habilidades técnicas, destinadas principalmente para lidar com grandes volumes de dados e desenvolvimento Web.</p>
         """,
     unsafe_allow_html=True,
 )
