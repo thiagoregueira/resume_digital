@@ -26,6 +26,7 @@ PROJECTS = {
     "🏅 Remover fundo de foto - Baseado no notebook da Fernanda Santos @f3loc": "https://remover-fundo-foto.streamlit.app/",
     "🏅 Projeto de Loja de Carros desenvolvida em DJANGO e deploy na EC2 da AWS": "http://54.205.134.181/cars/",
     "🏅 Réplica do pinterest com Python e Flask e deploy no Render": "https://replicapinterest.onrender.com",
+    "🏅 Projeto blog comunidade de pensadores - Python e Flask": "https://comunidade.up.railway.app/",
 }
 
 
