@@ -24,6 +24,7 @@ PROJECTS = {
     "🏅 Estudo sobre suicídios no Brasil - 2014 a 2018": "https://estudo-suicidios-2014-2018.streamlit.app/",
     "🏅 Análise de Turnover - Desafio Escola preditiva.ai": "https://turnover.streamlit.app/",
     "🏅 Remover fundo de foto": "https://remover-fundo-foto.streamlit.app/",
+    "🏅 Transformar fotos em preto e branco": "https://fotoempretoebranco.streamlit.app/",
     "🏅 Painel de ações do IBOVESPA": "https://ativos-ibov.streamlit.app/",
     "🏅 Projeto de Loja de Carros desenvolvida em DJANGO e deploy na EC2 da AWS": "http://54.205.134.181/cars/",
     "🏅 Réplica do pinterest com Python e Flask e deploy no Render": "https://replicapinterest.onrender.com",
