@@ -8,6 +8,10 @@ current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 curriculum_file = current_dir / "assets" / "Thiago_Regueira-CV.pdf"
 foto = current_dir / "assets" / "profile-pic (5).png"
+pos_banco_dados = current_dir / "images" / "CertificadoEHistoricoBancoDeDados-.pdf"
+pos_bigdata = current_dir / "images" / "CertificadoEHistoricoBigDataECienciaDados.pdf"
+pos_ia = current_dir / "images" / "CertificadoEHistoricoCienciaDadosEIA.pdf"
+graduacao_gestao_ambiental = current_dir / "images" / "diplomaUniNassau.pdf"
 
 
 # --- GENERAL SETTINGS ---
@@ -42,6 +46,14 @@ with open(css_file) as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
 with open(curriculum_file, "rb") as pdf_file:
     pdf_bytes = pdf_file.read()
+with open(graduacao_gestao_ambiental, "rb") as pdf_file:
+    graduacao_gestao_ambiental_bytes = pdf_file.read()
+with open(pos_banco_dados, "rb") as pdf_file:
+    pos_banco_dados_bytes = pdf_file.read()
+with open(pos_bigdata, "rb") as pdf_file:
+    pos_bigdata_bytes = pdf_file.read()
+with open(pos_ia, "rb") as pdf_file:
+    pos_ia_bytes = pdf_file.read()
 
 
 profile_pic = Image.open(foto)
@@ -105,12 +117,56 @@ st.write("#")
 st.write("<h2>🎓Formação Acadêmica</h2>", unsafe_allow_html=True)
 st.write("---")
 
-st.write("""<h4>Engenharia de Dados | PUC-Minas</h4>""", unsafe_allow_html=True)
+st.write(
+    """<h4>Graduação em Engenharia de Dados | PUC-Minas</h4>""", unsafe_allow_html=True
+)
 st.write("08/2023 - 12/2025" + " | " + "Graduando")
 st.write("#")
 st.write("#")
-st.write("<h4>Tecnologia em Gestão Ambiental | UNINASSAU</h4>", unsafe_allow_html=True)
+st.write("<h4>Pós-Graduação em Banco De Dados | FASUL-MG</h4>", unsafe_allow_html=True)
+st.write("05/2023 - 08/2023" + " | " + "Pós-Graduado")
+st.download_button(
+    label="📄 Certificado de Conclusão",
+    data=pos_banco_dados_bytes,
+    file_name=pos_banco_dados.name,
+    mime="application/octet-stream",
+)
+st.write("#")
+st.write(
+    """<h4>Pós-Graduação em Big Data e Ciência De Dados | FASUL-MG</h4>""",
+    unsafe_allow_html=True,
+)
+st.write("05/2023 - 11/2023" + " | " + "Pós-Graduado")
+st.download_button(
+    label="📄 Certificado de Conclusão",
+    data=pos_bigdata_bytes,
+    file_name=pos_bigdata.name,
+    mime="application/octet-stream",
+)
+st.write("#")
+st.write(
+    """<h4>Pós-Graduação em Ciência De Dados e Inteligência Artificial | FASUL-MG</h4>""",
+    unsafe_allow_html=True,
+)
+st.write("08/2023 - 12/2025" + " | " + "Pós-Graduado")
+st.download_button(
+    label="📄 Certificado de Conclusão",
+    data=pos_ia_bytes,
+    file_name=pos_ia.name,
+    mime="application/octet-stream",
+)
+st.write("#")
+st.write(
+    "<h4>Tecnologia em Gestão Ambiental | UNINASSAU, Recife-PE</h4>",
+    unsafe_allow_html=True,
+)
 st.write("08/2020 - 12/2022" + " | " + "Graduado")
+st.download_button(
+    label="📄 Diploma de Conclusão",
+    data=graduacao_gestao_ambiental_bytes,
+    file_name=graduacao_gestao_ambiental.name,
+    mime="application/octet-stream",
+)
 
 
 # --- WORK HISTORY ---
@@ -145,7 +201,7 @@ st.write("03/2011 - 08/2014")
 st.write(
     """
 <li style="text-align: justify;">✅ Prestei vários atendimentos tanto presenciais como teleatendimento;</li>
-<li style="text-align: justify;">✅Ofereci e vendi produtos e serviços através do atendimento presencial e teleatendimento;</li>
+<li style="text-align: justify;">✅ Ofereci e vendi produtos e serviços através do atendimento presencial e teleatendimento;</li>
 <li style="text-align: justify;">✅ Realizei novos cadastros e atualizei os já existentes;</li>
 <li style="text-align: justify;">✅ Realizei retenção e recuperação de clientes;</li>
 <li style="text-align: justify;">✅ Renegociei e recuperei clientes inadimplentes;</li>
