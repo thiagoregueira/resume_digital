@@ -121,7 +121,7 @@ st.write(
     """<h4>Graduação em Engenharia de Dados | PUC-Minas</h4>""", unsafe_allow_html=True
 )
 st.write("08/2023 - 12/2025" + " | " + "Graduando")
-st.write("#")
+
 st.write("<h4>Pós-Graduação em Banco De Dados | FASUL-MG</h4>", unsafe_allow_html=True)
 st.write("05/2023 - 08/2023" + " | " + "Pós-Graduado")
 st.download_button(
