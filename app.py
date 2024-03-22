@@ -122,7 +122,6 @@ st.write(
 )
 st.write("08/2023 - 12/2025" + " | " + "Graduando")
 st.write("#")
-st.write("#")
 st.write("<h4>Pós-Graduação em Banco De Dados | FASUL-MG</h4>", unsafe_allow_html=True)
 st.write("05/2023 - 08/2023" + " | " + "Pós-Graduado")
 st.download_button(
@@ -131,7 +130,7 @@ st.download_button(
     file_name=pos_banco_dados.name,
     mime="application/octet-stream",
 )
-st.write("#")
+
 st.write(
     """<h4>Pós-Graduação em Big Data e Ciência De Dados | FASUL-MG</h4>""",
     unsafe_allow_html=True,
@@ -143,19 +142,19 @@ st.download_button(
     file_name=pos_bigdata.name,
     mime="application/octet-stream",
 )
-st.write("#")
+
 st.write(
     """<h4>Pós-Graduação em Ciência De Dados e Inteligência Artificial | FASUL-MG</h4>""",
     unsafe_allow_html=True,
 )
-st.write("08/2023 - 12/2025" + " | " + "Pós-Graduado")
+st.write("05/2023 - 02/2024" + " | " + "Pós-Graduado")
 st.download_button(
     label="📄 Certificado de Conclusão",
     data=pos_ia_bytes,
     file_name=pos_ia.name,
     mime="application/octet-stream",
 )
-st.write("#")
+
 st.write(
     "<h4>Tecnologia em Gestão Ambiental | UNINASSAU, Recife-PE</h4>",
     unsafe_allow_html=True,
