@@ -35,7 +35,7 @@ PROJECTS = {
     "🏅 Cotações de moedas em relação ao real": "https://cotacaomoedas.streamlit.app/",
     "🏅 Projeto de Loja de Carros desenvolvida em DJANGO e deploy na EC2 da AWS": "http://54.205.134.181/cars/",
     "🏅 Réplica do pinterest com Python e Flask e deploy no Render": "https://replicapinterest.onrender.com",
-    "🏅 Projeto blog comunidade de pensadores - Python e Flask": "https://comunidade.up.railway.app/",
+    "🏅 Projeto blog comunidade de pensadores - Python e Flask": "https://comunidade-pensar.glitch.me/",
 }
 
 
