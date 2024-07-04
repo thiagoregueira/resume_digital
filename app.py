@@ -38,6 +38,7 @@ PROJECTS = {
     '🏅 RoboTICO - Seu TICO e TECO virtual!': 'https://robotico.streamlit.app/',
     '🏅 Análise todos os concursos Megasena': 'https://amegasena.streamlit.app/',
     '🏅 Cotações de moedas em relação ao real': 'https://cotacaomoedas.streamlit.app/',
+    '🏅 Consultar eventos históricos que ocorreram em uma data específica': 'https://eventoshistoricos.streamlit.app/',
     '🏅 Baixar vídeos do youtube': 'https://videosyoutube.streamlit.app/',
     '🏅 Lista de tarefas simples e prática feito com python e flet': 'https://todo-list-flet.glitch.me/',
     '🏅 Projeto de Loja de Carros desenvolvida em DJANGO e deploy na EC2 da AWS': 'http://54.205.134.181/cars/',
