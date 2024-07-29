@@ -39,6 +39,8 @@ PROJECTS = {
     '🏅 Análise todos os concursos Megasena': 'https://amegasena.streamlit.app/',
     '🏅 Cotações de moedas em relação ao real': 'https://cotacaomoedas.streamlit.app/',
     '🏅 Consultar eventos históricos que ocorreram em uma data específica': 'https://eventoshistoricos.streamlit.app/',
+    '🏅 Treinando Inglês com citações aleatórias': 'https://treinandoingles.streamlit.app/',
+    '🏅 Visualizar tabelas de arquivos SQLite(.db)': 'https://visualizadortabelas.streamlit.app/',
     '🏅 Baixar vídeos do youtube': 'https://videosyoutube.streamlit.app/',
     '🏅 API de gerenciamento de tarefas (TO-DO) - FASTAPI': 'https://todo-fastapi-one.vercel.app/',
     '🏅 Lista de tarefas simples e prática feito com python e flet': 'https://todo-list-flet.glitch.me/',
