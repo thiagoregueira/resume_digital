@@ -7,7 +7,7 @@ from PIL import Image
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if '__file__' in locals() else Path.cwd()
 css_file = current_dir / 'styles' / 'main.css'
-curriculum_file = current_dir / 'assets' / 'Thiago_Regueira-CV.pdf'
+curriculum_file = current_dir / 'assets' / 'CV_Thiago_Regueira_2024.pdf'
 foto = current_dir / 'assets' / 'profile-pic (5).png'
 pos_banco_dados = (
     current_dir / 'images' / 'CertificadoEHistoricoBancoDeDados-.pdf'
@@ -136,6 +136,12 @@ st.write(
 st.write('08/2023 - 12/2025' + ' | ' + 'Graduando')
 st.write('#')
 st.write(
+    """<h4>Técnico em Análise e Desenvolvimento de Sistemas | Escola Técnica FAT</h4>""",
+    unsafe_allow_html=True,
+)
+st.write('05/2024 - 12/2025' + ' | ' + 'Cursando')
+st.write('#')
+st.write(
     '<h4>Pós-Graduação em Banco De Dados | FASUL-MG</h4>',
     unsafe_allow_html=True,
 )
@@ -247,6 +253,10 @@ with st.expander('📚Lista Completa - Clique aqui!'):
             diretorio_certificados,
             'FIC_INGLES_BASICO_NIVEL_INSTRUMENTAL_I_IFMG.pdf',
         ),
+        'Google Cloud Computing Foundations Academy, Google': os.path.join(
+            diretorio_certificados,
+            'BR-GCCF2022--Thiago_Regueira.pdf',
+        ),
         'Oracle Cloud Infrastructure AI Certified Foundations Associate, Oracle': os.path.join(
             diretorio_certificados,
             'Oracle Cloud Infrastructure AI Certified Foundations Associate, Oracle.pdf',
@@ -258,6 +268,10 @@ with st.expander('📚Lista Completa - Clique aqui!'):
         'Oracle Cloud Data Management Certified Foundations Associate, Oracle': os.path.join(
             diretorio_certificados,
             'Oracle Cloud Data Management Certified Foundations Associate, Oracle.pdf',
+        ),
+        'Programa Next Oracle Education (ONE), Oracle + Alura': os.path.join(
+            diretorio_certificados,
+            'Programa_Next_Oracle_education.pdf',
         ),
         'FUNDAMENTOS DE ANALYTICS, Escola Preditiva': os.path.join(
             diretorio_certificados,
