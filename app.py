@@ -273,6 +273,10 @@ with st.expander('📚Lista Completa - Clique aqui!'):
             diretorio_certificados,
             'Programa_Next_Oracle_education.pdf',
         ),
+        'AWS re/Start Graduate, Amazon Web Services': os.path.join(
+            diretorio_certificados,
+            'aws-re-start-graduate.pdf',
+        ),
         'FUNDAMENTOS DE ANALYTICS, Escola Preditiva': os.path.join(
             diretorio_certificados,
             'FUNDAMENTOS DE ANALYTICS, Escola Preditiva.pdf',
