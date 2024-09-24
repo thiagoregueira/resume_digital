@@ -9,12 +9,8 @@ current_dir = Path(__file__).parent if '__file__' in locals() else Path.cwd()
 css_file = current_dir / 'styles' / 'main.css'
 curriculum_file = current_dir / 'assets' / 'CV_Thiago_Regueira_2024.pdf'
 foto = current_dir / 'assets' / 'profile-pic (5).png'
-pos_banco_dados = (
-    current_dir / 'images' / 'CertificadoEHistoricoBancoDeDados-.pdf'
-)
-pos_bigdata = (
-    current_dir / 'images' / 'CertificadoEHistoricoBigDataECienciaDados.pdf'
-)
+pos_banco_dados = current_dir / 'images' / 'CertificadoEHistoricoBancoDeDados-.pdf'
+pos_bigdata = current_dir / 'images' / 'CertificadoEHistoricoBigDataECienciaDados.pdf'
 pos_ia = current_dir / 'images' / 'CertificadoEHistoricoCienciaDadosEIA.pdf'
 graduacao_gestao_ambiental = current_dir / 'images' / 'diplomaUniNassau.pdf'
 
@@ -42,6 +38,7 @@ PROJECTS = {
     '🏅 Treinando Inglês com citações aleatórias': 'https://treinandoingles.streamlit.app/',
     '🏅 Visualizar tabelas de arquivos SQLite(.db)': 'https://visualizadortabelas.streamlit.app/',
     '🏅 Baixar vídeos do youtube': 'https://videosyoutube.streamlit.app/',
+    '🏅 Quadro de medalhas geral das Olimpíadas': 'https://medalhasolimpicas.streamlit.app/',
     '🏅 API de gerenciamento de tarefas (TO-DO) - FASTAPI': 'https://todo-fastapi-one.vercel.app/',
     '🏅 Lista de tarefas simples e prática feito com python e flet': 'https://todo-list-flet.glitch.me/',
     '🏅 Projeto de Loja de Carros desenvolvida em DJANGO e deploy na EC2 da AWS': 'http://54.205.134.181/cars/',
@@ -79,9 +76,7 @@ with col1:
 with col2:
     st.title(NAME)
     st.write(
-        '<p style="text-align: justify; font-size: 16px">{DESCRIPTION}</p>'.format(
-            DESCRIPTION=DESCRIPTION
-        ),
+        '<p style="text-align: justify; font-size: 16px">{DESCRIPTION}</p>'.format(DESCRIPTION=DESCRIPTION),
         unsafe_allow_html=True,
     )
     st.download_button(
@@ -217,9 +212,7 @@ st.write(
 # --- JOB 2
 st.write('#')
 st.write('#')
-st.write(
-    '<h4>👷', 'Escriturário | Banco do Brasil S.A</h4>', unsafe_allow_html=True
-)
+st.write('<h4>👷', 'Escriturário | Banco do Brasil S.A</h4>', unsafe_allow_html=True)
 st.write('03/2011 - 08/2014')
 st.write(
     """
@@ -307,9 +300,7 @@ with st.expander('📚Lista Completa - Clique aqui!'):
             diretorio_certificados,
             'ANÁLISE DE DADOS COM PYTHON, Treina Recife.pdf',
         ),
-        'CURSO SQL, Treina Recife': os.path.join(
-            diretorio_certificados, 'CURSO SQL, Treina Recife.pdf'
-        ),
+        'CURSO SQL, Treina Recife': os.path.join(diretorio_certificados, 'CURSO SQL, Treina Recife.pdf'),
         'DESENVOLVIMENTO JAVA COM CLOUD AWS, Digital Innovation One': os.path.join(
             diretorio_certificados,
             'DESENVOLVIMENTO JAVA COM CLOUD AWS, Digital Innovation One.pdf',
@@ -326,9 +317,7 @@ with st.expander('📚Lista Completa - Clique aqui!'):
             diretorio_certificados,
             'FEA-dev USP Python do Básico ao Intermediário.pdf',
         ),
-        'JAVA WEB COM SPRING BOOT, Treina Recife': os.path.join(
-            diretorio_certificados, 'JAVA_WEB_COM_SPRING_BOOT.pdf'
-        ),
+        'JAVA WEB COM SPRING BOOT, Treina Recife': os.path.join(diretorio_certificados, 'JAVA_WEB_COM_SPRING_BOOT.pdf'),
     }
 
     for nome_certificado, caminho_certificado in certificacoes.items():
