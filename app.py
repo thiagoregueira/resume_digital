@@ -12,6 +12,9 @@ foto = current_dir / 'assets' / 'profile-pic (5).png'
 pos_banco_dados = current_dir / 'images' / 'CertificadoEHistoricoBancoDeDados-.pdf'
 pos_bigdata = current_dir / 'images' / 'CertificadoEHistoricoBigDataECienciaDados.pdf'
 pos_ia = current_dir / 'images' / 'CertificadoEHistoricoCienciaDadosEIA.pdf'
+pos_eng_soft = (
+    current_dir / 'images' / 'Certificado - Especialização em Engenharia de Software e Gestão de Projetos.pdf'
+)
 graduacao_gestao_ambiental = current_dir / 'images' / 'diplomaUniNassau.pdf'
 
 
@@ -44,6 +47,8 @@ PROJECTS = {
     '🏅 Projeto de Loja de Carros desenvolvida em DJANGO e deploy na EC2 da AWS': 'http://54.205.134.181/cars/',
     '🏅 Réplica do pinterest com Python e Flask e deploy no Render': 'https://replicapinterest.onrender.com',
     '🏅 Projeto blog comunidade de pensadores - Python e Flask': 'https://comunidade-pensar.glitch.me/',
+    '🏅 Notebook Análise Exploratória Dataset Titanic': 'https://drive.google.com/file/d/1Y1Fa5YKhzadU1vm4GYo3-uyD3sjaDT93/view?usp=sharing',
+    '🏅 Notebook Análise de Exploratória e Ciência de dados': 'https://colab.research.google.com/drive/10_y-rR-Dvo2L7RhTj7MrMEPHWP3Q4hSd?usp=sharing',
 }
 
 
@@ -63,6 +68,8 @@ with open(pos_bigdata, 'rb') as pdf_file:
     pos_bigdata_bytes = pdf_file.read()
 with open(pos_ia, 'rb') as pdf_file:
     pos_ia_bytes = pdf_file.read()
+with open(pos_eng_soft, 'rb') as pdf_file:
+    pos_eng_soft_bytes = pdf_file.read()
 
 
 profile_pic = Image.open(foto)
@@ -135,6 +142,18 @@ st.write(
     unsafe_allow_html=True,
 )
 st.write('05/2024 - 12/2025' + ' | ' + 'Cursando')
+st.write('#')
+st.write(
+    '<h4>Pós-Graduação - Especialização em Engenharia de Software e Gestão de Projetos | Faculdade Estratego</h4>',
+    unsafe_allow_html=True,
+)
+st.write('02/2024 - 07/2024' + ' | ' + 'Pós-Graduado')
+st.download_button(
+    label='📄 Certificado de Conclusão',
+    data=pos_eng_soft_bytes,
+    file_name=pos_eng_soft.name,
+    mime='application/octet-stream',
+)
 st.write('#')
 st.write(
     '<h4>Pós-Graduação em Banco De Dados | FASUL-MG</h4>',
