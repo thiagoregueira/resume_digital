@@ -51,6 +51,8 @@ PROJECTS = {
     '🏅 Notebook Análise de Exploratória e Ciência de dados': 'https://colab.research.google.com/drive/10_y-rR-Dvo2L7RhTj7MrMEPHWP3Q4hSd?usp=sharing',
     '🏅 Notebook Prevendo Temperaturas': 'https://colab.research.google.com/drive/1OxNg2gEXTA8Rzja9HSS_hq2XCqxWQTLz?usp=sharing',
     '🏅 Notebook Prevendo valores de Ações': 'https://colab.research.google.com/drive/19Ia_c8tGGbjcmwoErk3LzeXoKlJNuHsX?usp=sharing',
+    '🏅 Databricks ETL de dados Turismo': 'https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4342599974113343/4361543055082390/5132378859049360/latest.html',
+    '🏅 Databricks EDA de dados Turismo': 'https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4342599974113343/4361543055082412/5132378859049360/latest.html',
 }
 
 
