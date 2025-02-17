@@ -49,6 +49,7 @@ PROJECTS = {
     '🏅 Projeto blog comunidade de pensadores - Python e Flask': 'https://comunidade-pensar.glitch.me/',
     '🏅 Notebook Análise Exploratória Dataset Titanic': 'https://drive.google.com/file/d/1Y1Fa5YKhzadU1vm4GYo3-uyD3sjaDT93/view?usp=sharing',
     '🏅 Notebook Análise de Exploratória e Ciência de dados': 'https://colab.research.google.com/drive/10_y-rR-Dvo2L7RhTj7MrMEPHWP3Q4hSd?usp=sharing',
+    '🏅 Notebook Prevendo Temperaturas': 'https://colab.research.google.com/drive/1OxNg2gEXTA8Rzja9HSS_hq2XCqxWQTLz?usp=sharing',
     '🏅 Notebook Prevendo valores de Ações': 'https://colab.research.google.com/drive/19Ia_c8tGGbjcmwoErk3LzeXoKlJNuHsX?usp=sharing',
 }
 
