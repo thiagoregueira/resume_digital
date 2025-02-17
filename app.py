@@ -263,6 +263,10 @@ with st.expander('📚Lista Completa - Clique aqui!'):
     diretorio_certificados = os.path.join(current_dir, 'images')
 
     certificacoes = {
+        'INTRODUCTION TO LINUX, THE LINUX FOUNDATION': os.path.join(
+            diretorio_certificados,
+            'thiago-regueira-linuxFoundation-certificate.pdf',
+        ),
         'FIC INGLÊS BÁSICO: NÍVEL INSTRUMENTAL I, IFMG': os.path.join(
             diretorio_certificados,
             'FIC_INGLES_BASICO_NIVEL_INSTRUMENTAL_I_IFMG.pdf',
