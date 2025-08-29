@@ -15,6 +15,7 @@ pos_ia = current_dir / 'images' / 'CertificadoEHistoricoCienciaDadosEIA.pdf'
 pos_eng_soft = (
     current_dir / 'images' / 'Certificado - Especialização em Engenharia de Software e Gestão de Projetos.pdf'
 )
+pos_python_unicesumar = current_dir / 'images' / 'certificado_pos_python.pdf'
 graduacao_gestao_ambiental = current_dir / 'images' / 'diplomaUniNassau.pdf'
 
 
@@ -74,6 +75,8 @@ with open(pos_ia, 'rb') as pdf_file:
     pos_ia_bytes = pdf_file.read()
 with open(pos_eng_soft, 'rb') as pdf_file:
     pos_eng_soft_bytes = pdf_file.read()
+with open(pos_python_unicesumar, 'rb') as pdf_file:
+    pos_python_unicesumar_bytes = pdf_file.read()
 
 
 profile_pic = Image.open(foto)
@@ -146,6 +149,24 @@ st.write(
     unsafe_allow_html=True,
 )
 st.write('05/2024 - 12/2025' + ' | ' + 'Cursando')
+st.write('#')
+st.write(
+    """<h4>Curso Técnico Informática para Internet | Escola Técnica FAT</h4>""",
+    unsafe_allow_html=True,
+)
+st.write('01/2025 - 06/2026' + ' | ' + 'Cursando')
+st.write('#')
+st.write(
+    '<h4>Pós-Graduação em Desenvolvimento de Sistemas com Python | UniCesumar</h4>',
+    unsafe_allow_html=True,
+)
+st.write('04/2024 - 02/2025' + ' | ' + 'Pós-Graduado')
+st.download_button(
+    label='📄 Certificado de Conclusão',
+    data=pos_python_unicesumar_bytes,
+    file_name=pos_python_unicesumar.name,
+    mime='application/octet-stream',
+)
 st.write('#')
 st.write(
     '<h4>Pós-Graduação - Especialização em Engenharia de Software e Gestão de Projetos | Faculdade Estratego</h4>',
