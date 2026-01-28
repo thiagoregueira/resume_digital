@@ -9,6 +9,7 @@ current_dir = Path(__file__).parent if '__file__' in locals() else Path.cwd()
 css_file = current_dir / 'styles' / 'main.css'
 curriculum_file = current_dir / 'assets' / 'CV_Thiago_Regueira_2024.pdf'
 foto = current_dir / 'assets' / 'profile-pic (5).png'
+tecnico_ads = current_dir / 'images' / 'desenvolvimento_sistema_tecnico.pdf'
 pos_banco_dados = current_dir / 'images' / 'CertificadoEHistoricoBancoDeDados-.pdf'
 pos_bigdata = current_dir / 'images' / 'CertificadoEHistoricoBigDataECienciaDados.pdf'
 pos_ia = current_dir / 'images' / 'CertificadoEHistoricoCienciaDadosEIA.pdf'
@@ -77,6 +78,8 @@ with open(pos_eng_soft, 'rb') as pdf_file:
     pos_eng_soft_bytes = pdf_file.read()
 with open(pos_python_unicesumar, 'rb') as pdf_file:
     pos_python_unicesumar_bytes = pdf_file.read()
+with open(tecnico_ads, 'rb') as pdf_file:
+    tecnico_ads_bytes = pdf_file.read()
 
 
 profile_pic = Image.open(foto)
@@ -148,7 +151,13 @@ st.write(
     """<h4>Técnico em Análise e Desenvolvimento de Sistemas | Escola Técnica FAT</h4>""",
     unsafe_allow_html=True,
 )
-st.write('05/2024 - 12/2025' + ' | ' + 'Cursando')
+st.write('05/2024 - 12/2025' + ' | ' + 'Técnico')
+st.download_button(
+    label='📄 Certificado de Conclusão',
+    data=tecnico_ads_bytes,
+    file_name=tecnico_ads.name,
+    mime='application/octet-stream',
+)
 st.write('#')
 st.write(
     """<h4>Curso Técnico Informática para Internet | Escola Técnica FAT</h4>""",
