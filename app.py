@@ -125,13 +125,10 @@ st.write('<h2>🌎Experiências e Qualificações</h2>', unsafe_allow_html=True)
 st.write('---')
 st.write(
     """<p class="tab" style="text-align: justify;">
-Como atual estudante de Engenharia de Dados, almejo uma sólida formação acadêmica em Engenharia de Dados/PUC-Minas, aliada a uma paixão incansável por tecnologia e pelo mundo dos dados. Minha trajetória profissional, notadamente como Gerente em um grande Banco nacional, forneceu uma base robusta em liderança e tomada de decisões estratégicas. Essa experiência, somada aos cinco anos como Escriturário, onde desenvolvi habilidades exemplares de comunicação e resolução de problemas, consolidou minha capacidade de oferecer soluções personalizadas para diversas situações de negócio.</p>
+Engenheiro de Dados e Desenvolvedor Web em com sólida base analítica desenvolvida ao longo de 10 anos no setor financeiro. Especialista em Python (Django/Flask/FastAPI) e Java (Spring Boot) com foco em criação de APIs robustas e pipelines de dados. Experiência prática em bancos de dados SQL (MySQL, PostgreSQL, Oracle) e metodologias ágeis. Trago a maturidade de gestão e visão de negócio do setor bancário aplicada à solução de problemas técnicos complexos.
+</p><br>
+<p class="tab" style="text-align: justify;">"Escolha um trabalho que você ame e não terá de trabalhar um único dia de sua vida". (Confúcio)</p>
         """,
-    unsafe_allow_html=True,
-)
-st.write(
-    """<p class="tab" style="text-align: justify;">
-    Hoje busco aliar toda minha experiência adquirida ao longo do tempo com minhas habilidades técnicas, destinadas principalmente para lidar com grandes volumes de dados e desenvolvimento Web.</p>""",
     unsafe_allow_html=True,
 )
 
@@ -246,6 +243,41 @@ st.write('---')
 # --- JOB 1
 st.write('#')
 st.write(
+    """<h4>👨 Analista de Dados | DBC Company</h4>""",
+    unsafe_allow_html=True,
+)
+st.write('03/2025 - atualmente')
+st.write(
+    """
+<li style="text-align: justify;">✅ Sou responsável por estruturar e analisar grandes volumes de dados, transformando informações em insights estratégicos;</li>
+<li style="text-align: justify;">✅Desenvolvo dashboards interativos em Power BI, permitindo que gestores acompanhem indicadores em tempo real;</li>
+<li style="text-align: justify;">✅ Otimizo processos de ETL em Python e SQL, reduzindo de 20% a 30% o tempo de preparação/carregamento de relatórios;</li>
+<li style="text-align: justify;">✅ Conduzi análises preditivas que apoiaram decisões de marketing e resultaram em aumento de 15% na taxa de conversão de campanhas;</li>
+<li style="text-align: justify;">✅ Desenvolvo relatórios e dashboards para acompanhamento de métricas, utilizando Python, SQL e Power BI;</li>
+""",
+    unsafe_allow_html=True,
+)
+
+# --- JOB 2
+st.write('#')
+st.write(
+    """<h4>👨 Estagiário de Dados | DBC Company</h4>""",
+    unsafe_allow_html=True,
+)
+st.write('11/2024 - 03/2025')
+st.write(
+    """
+<li style="text-align: justify;">✅ Fui responsável por apoiar a equipe na coleta, tratamento e análise de dados;</li>
+<li style="text-align: justify;">✅ Criei relatórios e dashboards para acompanhamento de métricas, utilizando Python, SQL e Power BI;</li>
+<li style="text-align: justify;">✅Desenvolvi scripts para automatizar processos e suporte em projetos de análise estatística e inteligência de negócios;</li>
+<li style="text-align: justify;">✅ Otimizei relatórios, reduzindo em 20% o tempo de preparação;</li>
+""",
+    unsafe_allow_html=True,
+)
+
+# --- JOB 3
+st.write('#')
+st.write(
     """<h4>👨‍💻 Gerente de Relacionamento | Banco do Brasil</h4>""",
     unsafe_allow_html=True,
 )
@@ -262,15 +294,14 @@ st.write(
 )
 
 
-# --- JOB 2
-st.write('#')
+# --- JOB 4
 st.write('#')
 st.write('<h4>👷', 'Escriturário | Banco do Brasil S.A</h4>', unsafe_allow_html=True)
 st.write('03/2011 - 08/2014')
 st.write(
     """
 <li style="text-align: justify;">✅ Prestei vários atendimentos tanto presenciais como teleatendimento;</li>
-<li style="text-align: justify;">✅ Ofereci e vendi produtos e serviços através do atendimento presencial e teleatendimento;</li>
+<li style="text-align: justify;">✅Ofereci e vendi produtos e serviços através do atendimento presencial e teleatendimento;</li>
 <li style="text-align: justify;">✅ Realizei novos cadastros e atualizei os já existentes;</li>
 <li style="text-align: justify;">✅ Realizei retenção e recuperação de clientes;</li>
 <li style="text-align: justify;">✅ Renegociei e recuperei clientes inadimplentes;</li>
