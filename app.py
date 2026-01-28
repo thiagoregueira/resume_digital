@@ -125,7 +125,7 @@ st.write('<h2>🌎Experiências e Qualificações</h2>', unsafe_allow_html=True)
 st.write('---')
 st.write(
     """<p class="tab" style="text-align: justify;">
-Engenheiro de Dados e Desenvolvedor Web em com sólida base analítica desenvolvida ao longo de 10 anos no setor financeiro. Especialista em Python (Django/Flask/FastAPI) e Java (Spring Boot) com foco em criação de APIs robustas e pipelines de dados. Experiência prática em bancos de dados SQL (MySQL, PostgreSQL, Oracle) e metodologias ágeis. Trago a maturidade de gestão e visão de negócio do setor bancário aplicada à solução de problemas técnicos complexos.
+Engenheiro/Analista de Dados e Desenvolvedor Web com sólida base analítica desenvolvida ao longo de 10 anos no setor financeiro. Especialista em Python (Django/Flask/FastAPI) e Java (Spring Boot) com foco em criação de APIs robustas e pipelines de dados. Experiência prática em bancos de dados SQL (MySQL, PostgreSQL, Oracle) e metodologias ágeis. Trago a maturidade de gestão e visão de negócio do setor bancário aplicada à solução de problemas técnicos complexos.
 </p><br>
 <p class="tab" style="text-align: justify;">"Escolha um trabalho que você ame e não terá de trabalhar um único dia de sua vida". (Confúcio)</p>
         """,
