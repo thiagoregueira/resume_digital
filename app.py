@@ -29,32 +29,35 @@ Engenheiro e Analista de Dados | Desenvolvedor Web
 """
 EMAIL = 'thiago.regueira@yahoo.com.br'
 
-PROJECTS = {
+PROJECTS_DATA = {
     '🏅 Dashboard de Vendas - Por ano': 'https://vendas-imersao.streamlit.app/',
     '🏅 Estudo sobre suicídios no Brasil - 2014 a 2018': 'https://estudo-suicidios-2014-2018.streamlit.app/',
     '🏅 Análise de Turnover - Desafio Escola preditiva.ai': 'https://turnover.streamlit.app/',
-    '🏅 Remover fundo de foto': 'https://remover-fundo-foto.streamlit.app/',
-    '🏅 Transformar fotos em preto e branco': 'https://fotoempretoebranco.streamlit.app/',
     '🏅 Painel de ações do IBOVESPA': 'https://ativos-ibov.streamlit.app/',
-    '🏅 RoboTICO - Seu TICO e TECO virtual!': 'https://robotico.streamlit.app/',
     '🏅 Análise todos os concursos Megasena': 'https://amegasena.streamlit.app/',
     '🏅 Cotações de moedas em relação ao real': 'https://cotacaomoedas.streamlit.app/',
     '🏅 Consultar eventos históricos que ocorreram em uma data específica': 'https://eventoshistoricos.streamlit.app/',
-    '🏅 Treinando Inglês com citações aleatórias': 'https://treinandoingles.streamlit.app/',
-    '🏅 Visualizar tabelas de arquivos SQLite(.db)': 'https://visualizadortabelas.streamlit.app/',
-    '🏅 Baixar vídeos do youtube': 'https://videosyoutube.streamlit.app/',
     '🏅 Quadro de medalhas geral das Olimpíadas': 'https://medalhasolimpicas.streamlit.app/',
-    '🏅 API de gerenciamento de tarefas (TO-DO) - FASTAPI': 'https://todo-fastapi-one.vercel.app/',
-    '🏅 Lista de tarefas simples e prática feito com python e flet': 'https://todo-list-flet.glitch.me/',
-    '🏅 Projeto de Loja de Carros desenvolvida em DJANGO e deploy na VPS da Oracle Cloud': 'https://carros.dominio.qzz.io/cars/',
-    '🏅 Réplica do pinterest com Python e Flask e deploy no Render': 'https://replicapinterest.onrender.com',
-    '🏅 Projeto blog comunidade de pensadores - Python e Flask': 'https://comunidade-pensar.glitch.me/',
     '🏅 Notebook Análise Exploratória Dataset Titanic': 'https://drive.google.com/file/d/1Y1Fa5YKhzadU1vm4GYo3-uyD3sjaDT93/view?usp=sharing',
     '🏅 Notebook Análise de Exploratória e Ciência de dados': 'https://colab.research.google.com/drive/10_y-rR-Dvo2L7RhTj7MrMEPHWP3Q4hSd?usp=sharing',
     '🏅 Notebook Prevendo Temperaturas': 'https://colab.research.google.com/drive/1OxNg2gEXTA8Rzja9HSS_hq2XCqxWQTLz?usp=sharing',
     '🏅 Notebook Prevendo valores de Ações': 'https://colab.research.google.com/drive/19Ia_c8tGGbjcmwoErk3LzeXoKlJNuHsX?usp=sharing',
     '🏅 Databricks ETL de dados Turismo': 'https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4342599974113343/4361543055082390/5132378859049360/latest.html',
     '🏅 Databricks EDA de dados Turismo': 'https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4342599974113343/4361543055082412/5132378859049360/latest.html',
+}
+
+PROJECTS_WEB = {
+    '🏅 Remover fundo de foto': 'https://remover-fundo-foto.streamlit.app/',
+    '🏅 Transformar fotos em preto e branco': 'https://fotoempretoebranco.streamlit.app/',
+    '🏅 RoboTICO - Seu TICO e TECO virtual!': 'https://robotico.streamlit.app/',
+    '🏅 Treinando Inglês com citações aleatórias': 'https://treinandoingles.streamlit.app/',
+    '🏅 Visualizar tabelas de arquivos SQLite(.db)': 'https://visualizadortabelas.streamlit.app/',
+    '🏅 Baixar vídeos do youtube': 'https://videosyoutube.streamlit.app/',
+    '🏅 API de gerenciamento de tarefas (TO-DO) - FASTAPI': 'https://todo-fastapi-one.vercel.app/',
+    '🏅 Lista de tarefas simples e prática feito com python e flet': 'https://todo-list-flet.glitch.me/',
+    '🏅 Projeto de Loja de Carros desenvolvida em DJANGO e deploy na VPS da Oracle Cloud': 'https://carros.dominio.qzz.io/cars/',
+    '🏅 Réplica do pinterest com Python e Flask e deploy no Render': 'https://replicapinterest.onrender.com',
+    '🏅 Projeto blog comunidade de pensadores - Python e Flask': 'https://comunidade-pensar.glitch.me/',
 }
 
 
@@ -314,8 +317,15 @@ st.write(
 st.write('#')
 st.write('<h2>🏆Projetos e Conquistas</h2>', unsafe_allow_html=True)
 st.write('---')
-for project, link in PROJECTS.items():
-    st.write(f'[{project}]({link})')
+
+with st.expander('📊 Projetos de Dados'):
+    for project, link in PROJECTS_DATA.items():
+        st.write(f'[{project}]({link})')
+
+st.write('#')
+with st.expander('💻 Projetos Web'):
+    for project, link in PROJECTS_WEB.items():
+        st.write(f'[{project}]({link})')
 
 # --- CERTIFICATIONS ---
 st.write('#')
