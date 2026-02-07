@@ -55,9 +55,9 @@ PROJECTS_WEB = {
     '🏅 Baixar vídeos do youtube': 'https://videosyoutube.streamlit.app/',
     '🏅 API de gerenciamento de tarefas (TO-DO) - FASTAPI': 'https://todo-fastapi-one.vercel.app/',
     '🏅 Lista de tarefas simples e prática feito com python e flet': 'https://todo-list-flet.glitch.me/',
-    '🏅 Projeto de Loja de Carros desenvolvida em DJANGO e deploy na VPS da Oracle Cloud': 'https://carros.dominio.qzz.io/cars/',
+    '🏅 Loja de Carros desenvolvida em DJANGO e deploy na VPS da Oracle Cloud': 'https://carros.dominio.qzz.io/cars/',
     '🏅 Réplica do pinterest com Python e Flask e deploy no Render': 'https://replicapinterest.onrender.com',
-    '🏅 Projeto blog comunidade de pensadores - Python e Flask': 'https://comunidade-pensar.glitch.me/',
+    '🏅 Blog comunidade de pensadores - Python e Flask': 'https://comunidade-pensar.glitch.me/',
     '🏅 Backend API de gerenciamento de filmes e críticas.': 'https://flixapi.dominio.qzz.io/api/schema/swagger-ui/',
     '🏅 Frontend API de gerenciamento de filmes e críticas.': 'https://flix--app.streamlit.app/',
 }
