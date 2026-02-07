@@ -58,6 +58,8 @@ PROJECTS_WEB = {
     '🏅 Projeto de Loja de Carros desenvolvida em DJANGO e deploy na VPS da Oracle Cloud': 'https://carros.dominio.qzz.io/cars/',
     '🏅 Réplica do pinterest com Python e Flask e deploy no Render': 'https://replicapinterest.onrender.com',
     '🏅 Projeto blog comunidade de pensadores - Python e Flask': 'https://comunidade-pensar.glitch.me/',
+    '🏅 Backend API de gerenciamento de filmes e críticas.': 'https://flixapi.dominio.qzz.io/api/schema/swagger-ui/',
+    '🏅 Frontend API de gerenciamento de filmes e críticas.': 'https://flix--app.streamlit.app/',
 }
 
 
