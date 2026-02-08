@@ -54,7 +54,6 @@ PROJECTS_WEB = {
     '🏅 Visualizar tabelas de arquivos SQLite(.db)': 'https://visualizadortabelas.streamlit.app/',
     '🏅 Baixar vídeos do youtube': 'https://videosyoutube.streamlit.app/',
     '🏅 API de gerenciamento de tarefas (TO-DO) - FASTAPI': 'https://todo-fastapi-one.vercel.app/',
-    '🏅 Lista de tarefas simples e prática feito com python e flet': 'https://todo-list-flet.glitch.me/',
     '🏅 Loja de Carros desenvolvida em DJANGO e deploy na VPS da Oracle Cloud': 'https://carros.dominio.qzz.io/cars/',
     '🏅 Réplica do pinterest com Python e Flask e deploy no Render': 'https://replicapinterest.onrender.com',
     '🏅 Blog comunidade de pensadores - Python e Flask': 'https://comunidade.dominio.qzz.io/',
